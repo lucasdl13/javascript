@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DETRAN</title>
+    <style>
+        body {
+            background-color: violet;
+        }
+        h1 {
+            font: bold 25pt Arial;
+            color: white;
+            
+        }
+        div {
+            font: normal 20pt Arial;
+            color: white;
+        }
+        input {
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sistema de Multas</h1>
+    <input type="number" name="txtvel" id = "txtvel">
+    <input type="button" value="verificar" id = "verificar" onclick="velocidade()">
+    <div id="digite"></div>
+    <script>
+        function velocidade() {
+            var veloc = document.getElementById('txtvel')
+            var velocint = Number(veloc.value)
+            var result = document.getElementById('digite')
+            if (velocint > 60) {
+                result.innerHTML = '<p>Você está dirigindo muito rápido! Melhor parar para não ser multado'
+            }
+            else {
+                result.innerHTML = '<p>Está na velocidade adequada. Continue assim'
+            }
+        }
+    </script>
+</body>
+</html>

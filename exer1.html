@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Site Legal</title>
+    <style>
+        body {
+            background-color: rgb(78, 110, 250)
+        }
+        h2 {
+            color: rgb(255, 217, 0);
+            font: bold 25pt Arial;
+        }
+        p {
+            color: rgb(255, 255, 255);
+            font: normal 15pt Arial
+        }
+    </style>
+</head>
+<body>
+    <h2>Olá mundo!</h2>
+    <p>Tudo bem?</p>
+    <script>
+        var nome = String(window.prompt('Qual seu nome? '))
+        document.write(`<p>Seja bem vindo ${nome}! Curiosidade: seu nome tem ${nome.length} letras<\p>`)
+        document.write(`Seu nome em maiúsculo é ${nome.toUpperCase()}`)
+    </script>
+</body>
+</html>

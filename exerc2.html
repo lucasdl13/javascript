@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        body{
+            background-color: blueviolet;
+            color: white;
+            font: normal 18pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Aprendendo a usar o DOM</h1>
+    <p><strong>Vamos aprender um pouco com o Guanabara</strong></p>
+    <div id="ola">Clique em mim</div>
+    <script>
+        window.document.write(document.getElementsByTagName('p')[0].innerText)
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p')[0]
+        p1.style.color = 'black'
+        corpo.style.background = 'blue'
+        var diva = window.document.getElementById('ola')
+        diva.style.background = 'black'
+    </script>
+</body>
+</html>

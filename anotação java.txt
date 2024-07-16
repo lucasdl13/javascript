@@ -1,0 +1,17 @@
+antes de declarar tu tem q colocar var antes tlgd, tipo: var nome = 'lucas'
+você formata fprçadamente no java pra int com parseInt e pra float com parseFloat, mas pra formatar pra qualquer número usa o Number, pra formatar pra string é String
+pra formatar a string tu tem q usar as craves (``) e dentro dela vc usa o ${}. ex: `seu nome é ${nome}`
+nois pode usar o .lenght pra saber o tamanho da string 
+
+Diferenças: usar && é equivalente ao usar o and no python, e o || sendo o or
+Também tem o ? q define algo se for true e : q define algo se for false
+Tipo: lucas == 'Lucas' ? 'Seu nome e lucas' : 'Seu nome não é lucas'
+
+CONTINUAR ESTUDANDO:
+functions
+objetos
+modularização
+RegEx
+JSON
+AJAX
+NodeJS
