@@ -1,8 +1,8 @@
 body {
     font: normal 15pt Arial;
     text-align: center;
-    min-height: 100vh;
-    min-width: 100vw;
+    min-width: 300px;
+    max-height: 1000px;
 }
 header {
     color: white;
