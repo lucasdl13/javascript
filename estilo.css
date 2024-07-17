@@ -2,6 +2,7 @@ body {
     font: normal 15pt Arial;
     text-align: center;
     min-height: 100vh;
+    min-width: 100vw;
 }
 header {
     color: white;
