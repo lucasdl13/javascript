@@ -1,6 +1,7 @@
 body {
     font: normal 15pt Arial;
     text-align: center;
+    min-height: 100vh;
 }
 header {
     color: white;
